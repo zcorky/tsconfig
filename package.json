@@ -1,0 +1,26 @@
+{
+	"name": "@zcorky/tsconfig",
+	"version": "0.0.1",
+	"description": "Shared TypeScript config for my projects",
+	"license": "MIT",
+	"repository": "zcorky/tsconfig",
+	"author": {
+		"name": "Zero",
+		"email": "tobewhatwewant@gmail.com",
+		"url": "moeover.com"
+	},
+	"main": "tsconfig.json",
+	"engines": {
+		"node": ">=6"
+	},
+	"files": [
+		"tsconfig.json"
+	],
+	"keywords": [
+		"tsconfig",
+		"typescript",
+		"ts",
+		"config",
+		"configuration"
+	]
+}
