@@ -3,25 +3,30 @@
 		// Disabled because of https://github.com/Microsoft/TypeScript/issues/29172
 		// "outDir": "dist",
 
-		"target": "es2016", // Node.js 6
+		"target": "es2018", // Node.js 6
 		"module": "commonjs",
 		"moduleResolution": "node",
+		"strictNullChecks": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"lib": ["es2018"],
+		"declaration": true,
+		"sourceMap": true,
+		"removeComments": true,
+
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
 		"resolveJsonModule": true,
 		"jsx": "react",
-		"sourceMap": true,
-		"declaration": true,
 		"pretty": true,
 		"newLine": "lf",
 		"stripInternal": true,
-		"strict": true,
-		"noImplicitReturns": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
+		// "strict": true,
+		// "noImplicitReturns": true,
+		// "noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true,
 		"noEmitOnError": true,
-		"forceConsistentCasingInFileNames": true,
-		"skipLibCheck": true
+		// "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
 	}
 }
