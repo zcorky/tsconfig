@@ -27,6 +27,9 @@ $ npm install --save-dev @zcorky/tsconfig
 }
 ```
 
+### Thanks
+* [sindresorhus/tsconfig](https://github.com/sindresorhus/tsconfig)
+
 
 ## License
 
