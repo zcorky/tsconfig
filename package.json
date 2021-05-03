@@ -22,5 +22,12 @@
 		"ts",
 		"config",
 		"configuration"
-	]
+	],
+	"devDependencies": {
+		"json5": "^2.2.0"
+	},
+	"scripts": {
+		"prepublish": "npm run build",
+		"build": "node ./build/build.js"
+	}
 }
